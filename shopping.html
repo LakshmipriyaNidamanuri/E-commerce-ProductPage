@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-Commerce Product Page</title>
+</head>
+<body>
+<h><b><font size = "7" >E-commerce Product Page</font></b></h>
+<br><br><br>
+<br><br><br>
+    <div class="products-grid">
+  
+        <div class="product" data-product-id="1">
+            <img src="img5.jpg" alt="Product 1 Image" class="product-image">
+	    <br><br><br>
+	    <br><br><br>
+            <h2><b>Smart Watch</b></h2>
+            <p>Realme Smart Watch 2 with Superbright HD Display & 90 Sports Modes Smartwatch</p>
+            <p>Price: Rs. <span class="product-price"><b>3499.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="4">
+            <img src="img4.jpg" alt="Product 1 Image" class="product-image">
+            <h2><b>Laptop</b></h2>
+            <p>Laptop Top Portable View Free Clipart HD has a transparent background.</p>
+            <p>Price: Rs. <span class="product-price"><b>78855.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="6">
+            <img src="img6.jpg" alt="Product 6 Image" class="product-image">
+            <h2><b>Mobile</b></h2>
+            <p>Accreate 5.8 Inch Mobile HD Phone Mate20 Pro Smart Phone 6+64GB Golden American regulationsBrand: Accreate</p>
+            <p>Price: Rs. <span class="product-price"><b>37850.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="1">
+            <img src="img1.jpg" alt="Product 1 Image" class="product-image">
+            <h2><b>Airpods</b></h2>
+            <p>The EarPods also include a built-in remote that lets you adjust the volume, control the playback of music and video, and answer or end calls with a pinch of the cord.This product comes in a Jewel Case.</p>
+            <p>Price: Rs. <span class="product-price"><b>2599.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="2">
+            <img src="img2.jpg" alt="Product 1 Image" class="product-image">
+            <h2><b>Headset</b></h2>
+            <p>TruVoice Professional USB Headset and Webcam Bundle - Includes VoicePro 20 Double Ear USB Headset with NC Microphone and W830 HD 1080P Webcam</p>
+            <p>Price: Rs. <span class="product-price"><b>1285.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="8">
+            <img src="img8.jpg" alt="Product 1 Image" class="product-image">
+            <h2><b>Smart Watch</b></h2>
+            <p>mi Smart Watch for Boys Y68 Bluetooth Calling Smart Touchscreen Smart Watch Bluetooth 1.44 HD Screen Smart Watch with Daily Activity Tracker, Heart Rate Sensor, Sleep Monitor for All Boys & Girls</p>
+            <p>Price: Rs. <span class="product-price"><b>5000.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="9">
+            <img src="img9.jpg" alt="Product 1 Image" class="product-image">
+            <h2><b>EarPhones</b></h2>
+            <p>OG Wireless Bluetooth in Ear Headphones, 13mm Driver, Upto 27Hr Playback Deep Bass, Type-C Fast Charging (10Mins=7.5Hrs Playtime), HD Calls, Fast Charging Type-C Neckband, Magnetic Buds, IPX5 Water Resistant & Sweatproof</p>
+            <p>Price: Rs. <span class="product-price"><b>849.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	<div class="product" data-product-id="3">
+            <img src="img3.jpg" alt="Product 1 Image" class="product-image">
+            <h2>Headphone</h2>
+            <p>Logitech C920 HD Pro Webcam - 1080p, Optical, Full HD Streaming Camera & H540 Stereo Wired On Ear Headphones with Mic with Noise-Cancelling USB, On Ear Controls, Mute Indicator Light, Pc/Mac/Laptop</p>
+            <p>Price: Rs. <span class="product-price"><b>5824.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+	 <div class="product" data-product-id="7">
+            <img src="img7.jpg" alt="Product 1 Image" class="product-image">
+            <h2><b>iPhone</b></h2>
+            <p>Black Apple iphone X frontside and back side turned eachother.</p>
+            <p>Price: Rs. <span class="product-price"><b>99499.00</b></span></p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h3>Shopping Cart</h3>
+        <ul id="cart-list"></ul>
+        <p>Total: Rs. <span id="cart-total"><b>0.00</b></span></p>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
